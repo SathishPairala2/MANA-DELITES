@@ -1,0 +1,470 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  /* Brand Colors from Logo */
+  --millet-beige: #F9F7F2;       /* Cream background from logo */
+  --organic-brown: #4A3728;      /* Dark Sepia text from logo */
+  --leaf-green: #6B705C;         /* Sage Green leaves from logo */
+  --bowl-orange: #A64F35;        /* Terracotta bowl color */
+  --accent-gold: #D4A373;        /* Mustard/Gold grain color */
+  --deep-earth: #2C1E14;         /* Even darker version for contrast */
+  
+  /* UI Colors */
+  --text-primary: var(--organic-brown);
+  --text-secondary: #7B6B5D;     /* Muted sepia */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: var(--millet-beige);
+  
+  /* Typography */
+  --font-main: 'Outfit', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  
+  /* Spacing */
+  --section-padding: 80px 5%;
+  --border-radius: 12px;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-main);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/Footer/Footer.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__4vzqH {
+  background: var(--deep-earth);
+  color: #fff;
+  padding: 80px 0 40px;
+  margin-top: 100px;
+}
+
+.Footer_container__Dj1D9 {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.Footer_grid__Yb5OK {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  grid-gap: 60px;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.Footer_logo__C9vo8 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.Footer_logoTextWrapper__RfqEW {
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer_logoText__JXSR3 {
+  color: #fff;
+  font-size: 24px;
+  font-family: var(--font-serif);
+}
+
+.Footer_logoSubtext__d2AxF {
+  color: var(--leaf-green);
+  letter-spacing: 2px;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+.Footer_description__s_1Tl {
+  margin: 25px 0;
+  color: #d1bfa7;
+  line-height: 1.7;
+  max-width: 350px;
+}
+
+.Footer_socials__1hnjR {
+  display: flex;
+  gap: 20px;
+}
+
+.Footer_socials__1hnjR a {
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 8px 15px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.Footer_socials__1hnjR a:hover {
+  background: var(--leaf-green);
+  border-color: var(--leaf-green);
+}
+
+.Footer_linksCol__KyYp4 h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: var(--font-accent);
+}
+
+.Footer_linksCol__KyYp4 ul {
+  list-style: none;
+}
+
+.Footer_linksCol__KyYp4 li {
+  margin-bottom: 12px;
+}
+
+.Footer_linksCol__KyYp4 a {
+  color: #d1bfa7;
+  transition: color 0.3s;
+  font-size: 15px;
+}
+
+.Footer_linksCol__KyYp4 a:hover {
+  color: var(--leaf-green);
+}
+
+.Footer_newsletterCol__HkUYE h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: var(--font-accent);
+}
+
+.Footer_newsletterCol__HkUYE p {
+  color: #d1bfa7;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.Footer_newsletterForm__wbOCX {
+  display: flex;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.Footer_newsletterForm__wbOCX input {
+  background: transparent;
+  border: none;
+  padding: 12px 15px;
+  color: #fff;
+  flex: 1 1;
+  outline: none;
+}
+
+.Footer_newsletterForm__wbOCX button {
+  background: var(--leaf-green);
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.Footer_newsletterForm__wbOCX button:hover {
+  opacity: 0.9;
+}
+
+.Footer_bottom__2dJjP {
+  padding-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #887869;
+  font-size: 14px;
+}
+
+.Footer_bottomLinks__AMVW0 {
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 1024px) {
+  .Footer_grid__Yb5OK {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Footer_grid__Yb5OK {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/components/Navbar/Navbar.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.Navbar_navbar__UMdIx {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2000; /* Above hero and everything else */
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 25px 0;
+  background: transparent;
+}
+
+
+.Navbar_scrolled__Gl1kk {
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  padding: 15px 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(74, 55, 40, 0.1);
+}
+
+.Navbar_container__zauSF {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar_logo__PiZmU {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar_logoImg__NsKBI {
+  width: 70px;
+  height: auto;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 2px 10px rgba(0,0,0,0.1));
+}
+
+.Navbar_logo__PiZmU:hover .Navbar_logoImg__NsKBI {
+  transform: scale(1.05);
+}
+
+
+
+
+.Navbar_navLinks__kYCXg {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.Navbar_navLinks__kYCXg a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff; /* White on transparent */
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.Navbar_scrolled__Gl1kk .Navbar_navLinks__kYCXg a {
+  color: var(--organic-brown); /* Dark on scroll */
+}
+
+.Navbar_navLinks__kYCXg a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--leaf-green);
+  transition: width 0.3s ease;
+}
+
+.Navbar_navLinks__kYCXg a:hover {
+  color: var(--leaf-green);
+}
+
+.Navbar_navLinks__kYCXg a:hover::after {
+  width: 100%;
+}
+
+.Navbar_dropdown__GsLXV {
+  position: relative;
+}
+
+.Navbar_dropdownContent__THKha {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: white;
+  min-width: 200px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  padding: 15px 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.Navbar_dropdown__GsLXV:hover .Navbar_dropdownContent__THKha {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0px);
+}
+
+.Navbar_dropdownContent__THKha a {
+  display: block;
+  padding: 10px 25px;
+  white-space: nowrap;
+}
+
+.Navbar_dropdownContent__THKha a::after {
+  display: none;
+}
+
+.Navbar_actions__aJJwf {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.Navbar_iconBtn__W_73l, .Navbar_cartBtn___bN0W {
+  position: relative;
+  color: #fff; /* White on transparent */
+  transition: all 0.3s ease;
+}
+
+.Navbar_scrolled__Gl1kk .Navbar_iconBtn__W_73l, .Navbar_scrolled__Gl1kk .Navbar_cartBtn___bN0W {
+  color: var(--organic-brown); /* Dark on scroll */
+}
+
+.Navbar_iconBtn__W_73l:hover, .Navbar_cartBtn___bN0W:hover {
+  transform: translateY(-2px);
+}
+
+.Navbar_cartCount__GKtv3 {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: var(--leaf-green);
+  color: white;
+  font-size: 10px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.Navbar_mobileToggle__OVVtR {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .Navbar_navLinks__kYCXg {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100vh;
+    background: var(--millet-beige);
+    flex-direction: column;
+    padding: 100px 40px;
+    transition: right 0.5s ease;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.05);
+  }
+
+  .Navbar_navLinks__kYCXg.Navbar_open__cncTg {
+    right: 0;
+  }
+
+  .Navbar_mobileToggle__OVVtR {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    z-index: 1001;
+  }
+
+  .Navbar_hamburger__ZaVM2 {
+    width: 100%;
+    height: 2px;
+    background: var(--organic-brown);
+    position: absolute;
+    top: 50%;
+    transition: 0.3s;
+  }
+
+  .Navbar_hamburger__ZaVM2::before,
+  .Navbar_hamburger__ZaVM2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: var(--organic-brown);
+    transition: 0.3s;
+  }
+
+  .Navbar_hamburger__ZaVM2::before { top: -8px; }
+  .Navbar_hamburger__ZaVM2::after { top: 8px; }
+
+  .Navbar_hamburger__ZaVM2.Navbar_active__yieh5 { background: transparent; }
+  .Navbar_hamburger__ZaVM2.Navbar_active__yieh5::before { transform: rotate(45deg); top: 0; }
+  .Navbar_hamburger__ZaVM2.Navbar_active__yieh5::after { transform: rotate(-45deg); top: 0; }
+}
+

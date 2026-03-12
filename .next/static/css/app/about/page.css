@@ -1,0 +1,145 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[5].use[3]!./src/app/about/About.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.About_page__R4DeX {
+  padding-top: 80px;
+}
+
+.About_hero__iHvl3 {
+  height: 50vh;
+  background: var(--millet-beige);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.About_hero__iHvl3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(74, 55, 40, 0.05) 0%, transparent 70%);
+}
+
+.About_title__VzB_Y {
+  font-size: 56px;
+  color: var(--organic-brown);
+  margin-bottom: 15px;
+}
+
+.About_subtitle__VKmQc {
+  font-size: 20px;
+  color: var(--leaf-green);
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.About_storySection__rsv_4 {
+  padding: 100px 0;
+}
+
+.About_storyGrid__SENRY {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 80px;
+  gap: 80px;
+  align-items: center;
+}
+
+.About_textContent__GHcll h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.About_highlight__jGruf {
+  color: var(--leaf-green);
+}
+
+.About_textContent__GHcll p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 25px;
+}
+
+.About_values__R_YgO {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.About_valueItem__wzk8t strong {
+  display: block;
+  font-size: 20px;
+  color: var(--organic-brown);
+  margin-bottom: 10px;
+}
+
+.About_valueItem__wzk8t p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.About_imgWrapper__WJOC5 {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+}
+
+.About_storyImage__89hk_ {
+  object-fit: cover;
+}
+
+.About_milletFocus__zgtcY {
+  background: var(--deep-earth);
+  color: #fff;
+  padding: 100px 0;
+}
+
+.About_focusHeader__hEs_Q {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.About_focusTitle__ABggz {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.About_focusGrid__zQDs_ {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  gap: 40px;
+}
+
+.About_focusItem__j_RP_ {
+  background: rgba(255,255,255,0.05);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.About_focusItem__j_RP_ h3 {
+  color: var(--accent-gold);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .About_storyGrid__SENRY {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  
+  .About_title__VzB_Y {
+    font-size: 42px;
+  }
+}
+

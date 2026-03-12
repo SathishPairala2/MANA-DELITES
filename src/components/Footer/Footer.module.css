@@ -1,0 +1,169 @@
+.footer {
+  background: var(--deep-earth);
+  color: #fff;
+  padding: 80px 0 40px;
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.logoTextWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoText {
+  color: #fff;
+  font-size: 24px;
+  font-family: var(--font-serif);
+}
+
+.logoSubtext {
+  color: var(--leaf-green);
+  letter-spacing: 2px;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+.description {
+  margin: 25px 0;
+  color: #d1bfa7;
+  line-height: 1.7;
+  max-width: 350px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.socials a {
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 8px 15px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  background: var(--leaf-green);
+  border-color: var(--leaf-green);
+}
+
+.linksCol h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: var(--font-accent);
+}
+
+.linksCol ul {
+  list-style: none;
+}
+
+.linksCol li {
+  margin-bottom: 12px;
+}
+
+.linksCol a {
+  color: #d1bfa7;
+  transition: color 0.3s;
+  font-size: 15px;
+}
+
+.linksCol a:hover {
+  color: var(--leaf-green);
+}
+
+.newsletterCol h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: var(--font-accent);
+}
+
+.newsletterCol p {
+  color: #d1bfa7;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.newsletterForm {
+  display: flex;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.newsletterForm input {
+  background: transparent;
+  border: none;
+  padding: 12px 15px;
+  color: #fff;
+  flex: 1;
+  outline: none;
+}
+
+.newsletterForm button {
+  background: var(--leaf-green);
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.newsletterForm button:hover {
+  opacity: 0.9;
+}
+
+.bottom {
+  padding-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #887869;
+  font-size: 14px;
+}
+
+.bottomLinks {
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

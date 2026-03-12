@@ -1,0 +1,138 @@
+.page {
+  padding-top: 80px;
+}
+
+.hero {
+  height: 50vh;
+  background: var(--millet-beige);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(74, 55, 40, 0.05) 0%, transparent 70%);
+}
+
+.title {
+  font-size: 56px;
+  color: var(--organic-brown);
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: var(--leaf-green);
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.storySection {
+  padding: 100px 0;
+}
+
+.storyGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.textContent h2 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  color: var(--leaf-green);
+}
+
+.textContent p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  margin-bottom: 25px;
+}
+
+.values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.valueItem strong {
+  display: block;
+  font-size: 20px;
+  color: var(--organic-brown);
+  margin-bottom: 10px;
+}
+
+.valueItem p {
+  font-size: 15px;
+  margin: 0;
+}
+
+.imgWrapper {
+  position: relative;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+}
+
+.storyImage {
+  object-fit: cover;
+}
+
+.milletFocus {
+  background: var(--deep-earth);
+  color: #fff;
+  padding: 100px 0;
+}
+
+.focusHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.focusTitle {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.focusGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.focusItem {
+  background: rgba(255,255,255,0.05);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.focusItem h3 {
+  color: var(--accent-gold);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .storyGrid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  
+  .title {
+    font-size: 42px;
+  }
+}

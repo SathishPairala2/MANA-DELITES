@@ -1,0 +1,20 @@
+.main {
+  min-height: 100vh;
+}
+
+.placeholder {
+  padding: var(--section-padding);
+  text-align: center;
+  background: var(--bg-secondary);
+}
+
+.placeholder h2 {
+  font-size: 48px;
+  color: var(--organic-brown);
+  margin-bottom: 20px;
+}
+
+.placeholder p {
+  color: var(--text-secondary);
+  font-size: 18px;
+}

@@ -1,0 +1,129 @@
+.page {
+  padding-top: 80px;
+}
+
+.header {
+  background: var(--bg-secondary);
+  padding: 80px 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  color: var(--organic-brown);
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: var(--leaf-green);
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main {
+  padding: 100px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 80px;
+}
+
+.infoBox {
+  margin-bottom: 40px;
+}
+
+.infoBox h3 {
+  font-size: 24px;
+  color: var(--organic-brown);
+  margin-bottom: 15px;
+}
+
+.infoBox p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.whatsappBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #25D366;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 50px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.whatsappBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(37, 211, 102, 0.3);
+}
+
+.formCol {
+  background: #fff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+}
+
+.formGroup {
+  margin-bottom: 25px;
+}
+
+.formGroup label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--organic-brown);
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+  border-color: var(--leaf-green);
+}
+
+.submitBtn {
+  width: 100%;
+  background: var(--leaf-green);
+  color: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+
+.submitBtn:hover {
+  background: var(--organic-brown);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+}

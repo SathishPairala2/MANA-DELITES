@@ -1,0 +1,153 @@
+.page {
+  padding: 120px 0 80px;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--bowl-orange);
+  margin-bottom: 25px;
+}
+
+.title {
+  font-size: 42px;
+  color: var(--organic-brown);
+  margin-bottom: 60px;
+}
+
+.highlight {
+  color: var(--bowl-orange);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 60px;
+}
+
+.sectionHeader {
+  margin-bottom: 50px;
+}
+
+.sectionHeader h3 {
+  font-size: 24px;
+  color: var(--organic-brown);
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.fullWidth {
+  grid-column: span 2;
+}
+
+.formGrid input {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.paymentMethods {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.radio input {
+  width: 20px;
+  height: 20px;
+}
+
+.orderBtn {
+  width: 100%;
+  background: var(--bowl-orange);
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.summary {
+  background: var(--bg-secondary);
+  padding: 40px;
+  border-radius: 20px;
+  height: fit-content;
+}
+
+.items {
+  margin-bottom: 30px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: var(--text-secondary);
+}
+
+.total {
+  padding-top: 25px;
+  border-top: 2px solid var(--organic-brown);
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--organic-brown);
+}
+
+.success {
+  padding: 150px 0;
+  text-align: center;
+}
+
+.successIcon {
+  width: 80px;
+  height: 80px;
+  background: var(--bowl-orange);
+  color: #fff;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 30px;
+}
+
+.orderId {
+  margin: 20px 0 40px;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.btn {
+  background: var(--leaf-green);
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
